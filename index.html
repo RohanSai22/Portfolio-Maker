@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maragoni Rohan Sai - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="light-mode">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">Rohan's World</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-switch">
+                <label for="theme-switch" class="switch-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </label>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <div class="container">
+                <h1>Maragoni Rohan Sai</h1>
+                <p>B.Tech student specializing in AI and Machine Learning . </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rohan-sai-446a02228" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/RohanSai22" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/+916305684953" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://t.me/senorita2001" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="https://discordapp.com/users/Rohansai22" target="_blank" title="Discord"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>As an explorer at heart, I thrive on pushing the boundaries of technology and human experience. My journey in AI and machine learning is driven by an insatiable curiosity to uncover innovative solutions that enhance user experiences</p>
+                <p> Beyond my expertise in AI, I'm well-versed in MERN stack development, allowing me to bring ideas to life through full-stack applications. I'm passionate about connecting with diverse minds, believing that the best innovations arise from collaborative thinking and the exchange of unique perspectives.</p>
+                <p> My approach combines technical prowess with a deep interest in understanding people's thoughts and needs, always seeking to bridge the gap between cutting-edge technology and real-world applications</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="nlp">NLP</button>
+                </div>
+                <div class="project-grid">
+                    <div class="project-card" data-category="ai">
+                        <h3>Personalized Learning</h3>
+                        <p>A project focused on personalizing learning with customized content.</p>
+                        <div class="project-buttons">
+                            <button class="btn view-project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <h3>MERN Stack Real Estate Marketplace</h3>
+                        <p>A comprehensive real estate marketplace built using the MERN stack.</p>
+                        <div class="project-buttons">
+                            <button class="btn view-project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="nlp">
+                        <h3>ChatGPT-like System for Low-end CPUs</h3>
+                        <p>A lightweight ChatGPT-like system designed for low-end hardware.</p>
+                        <div class="project-buttons">
+                            <button class="btn view-project">View Project</button>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Python <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div></li>
+                            <li>C <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></li>
+                            <li>Dart <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></li>
+                            <li>SQL <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></li>
+                            <li>MongoDB <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Frameworks & Libraries</h3>
+                        <ul>
+                            <li>React.js <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></li>
+                            <li>Flutter <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></li>
+                            <li>Node.js <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div></li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & Machine Learning</h3>
+                        <ul>
+                            <li>Machine Learning <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div></li>
+                            <li>Generative AI <div class="skill-bar"><div class="skill-progress" data-progress="80"></div></div></li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Problem-solving</li>
+                            <li>Team collaboration</li>
+                            <li>Effective communication</li>
+                            <li>Time management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-card">
+                    <h3>Vardhaman College of Engineering, Hyderabad, India</h3>
+                    <p>B.Tech in Artificial Intelligence and Machine Learning</p>
+                    <p>Dec 2021 - Sep 2025</p>
+                    <p>CGPA: 8.9</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section">
+            <div class="container">
+                <h2>Certificates</h2>
+                <div class="certificate-grid">
+                    <div class="certificate-card">
+                        <h3>MERN Stack E-commerce Project: Part 1: Backend Only</h3>
+                        <p>Certificate Number: UC-fd5a6c11-2c3d-49e6-8f4b-1b59f379dfc0</p>
+                        <div class="certificate-button">
+                            <a href="https://www.udemy.com/certificate/UC-fd5a6c11-2c3d-49e6-8f4b-1b59f379dfc0/" target="_blank" class="btn">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificate-card">
+                        <h3>Smart Coder Bronze Certificate</h3>
+                        <p>Data Structures and Analysis</p>
+                        <div class="certificate-button">
+                            <a href="https://smartinterviews.in/certificate/99351b52" target="_blank" class="btn">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p id="contact-form">
+                    Drop me a mail at <a href="mailto:maragonirohansai@gmail.com" target="_blank" title="Gmail">
+                        Gmail <i class="fas fa-envelope"></i>
+                    </a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Maragoni Rohan Sai. All rights reserved.</p>
+    </footer>
+
+    <div id="project-popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2 id="popup-title"></h2>
+            <p id="popup-description"></p>
+            <p id="popup-technologies"></p>
+            <a id="popup-link" target="_blank" href="#" onclick="window.open(this.href, 'windowName', 'width=1000, height=700, left=24, top=24, scrollbars, resizable')" class="btn">View Project</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
