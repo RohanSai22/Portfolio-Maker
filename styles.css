@@ -193,6 +193,44 @@ h2 {
     margin-bottom: 2rem;
 }
 
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 2rem;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column-reverse;
+    }
+
+    .profile-image {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}
+
 .social-links {
     display: flex;
     justify-content: center;
