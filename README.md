@@ -23,7 +23,7 @@ This project is a dynamic portfolio website generator built with HTML, CSS, and 
 
 1. Clone the repository:
 
-       git clone https://github.com/RohanSai22/Portfolio-Maker
+       git clone https://github.com/RohanSai22/resume
 
 2. Navigate to the project directory:
 
