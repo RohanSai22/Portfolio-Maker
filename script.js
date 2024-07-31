@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
             technologies: 'Scrapy, BeautifulSoup, transformers, t5-small model, Streamlit',
             link: 'https://github.com/RohanSai22/rnag'
         },
-        'Reducing GPU Dependency in Large Language Models through Weight Prediction and CPU Optimization': {
+        'Weights Prediction In Deep Learning': {
             description: 'This project aims to reduce the dependency on GPUs for Large Language Models (LLMs) by leveraging individual Deep Learning (DL) models for each layer. By utilizing these individual DL models, we can unlock potential applications such as chain-of-thought reasoning and AI agent chains. This approach also enables the sequential utilization of CPUs instead of GPUs, making advanced AI technologies more accessible and deployable in resource-constrained environments. The methodology involves training lightweight neural networks to predict the weights of a pre-trained LLM, allowing efficient CPU-based inference without significant performance loss. This innovation demonstrates that powerful AI tools can be made available on modest hardware setups, broadening the reach and usability of conversational AI.',
             technologies: 'Weight Prediction Techniques,CPU Optimization,Individual Deep Learning Models,Sequential CPU Utilization,PyTorch,Hugging Face Transformers',
             link: 'https://www.youtube.com/watch?v=ZZTyjLwovhE'
