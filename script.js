@@ -101,7 +101,12 @@ document.addEventListener('DOMContentLoaded', () => {
         'ChatGPT-like System for Low-end CPUs': {
             description: 'This project aims to create a conversational AI system that can run efficiently on low-end CPUs, making advanced AI accessible without the need for high-end hardware. This system is designed to operate with minimal RAM usage, specifically targeting a range of 100MB to 8GB, to ensure compatibility with most consumer-grade computers. Utilizing modules such as Scrapy, BeautifulSoup (BS4), and the t5-small model, the project focuses on optimizing performance while maintaining conversational capabilities. The interface is built using Streamlit, providing a user-friendly platform for interaction. By applying techniques like model quantization and efficient data handling, this project demonstrates that powerful AI tools can be made available on modest hardware setups, broadening the reach and usability of conversational AI.',
             technologies: 'Scrapy, BeautifulSoup, transformers, t5-small model, Streamlit',
-            link: '#'
+            link: 'https://github.com/RohanSai22/rnag'
+        },
+        'Reducing GPU Dependency in Large Language Models through Weight Prediction and CPU Optimization': {
+            description: 'This project aims to reduce the dependency on GPUs for Large Language Models (LLMs) by leveraging individual Deep Learning (DL) models for each layer. By utilizing these individual DL models, we can unlock potential applications such as chain-of-thought reasoning and AI agent chains. This approach also enables the sequential utilization of CPUs instead of GPUs, making advanced AI technologies more accessible and deployable in resource-constrained environments. The methodology involves training lightweight neural networks to predict the weights of a pre-trained LLM, allowing efficient CPU-based inference without significant performance loss. This innovation demonstrates that powerful AI tools can be made available on modest hardware setups, broadening the reach and usability of conversational AI.',
+            technologies: 'Weight Prediction Techniques,CPU Optimization,Individual Deep Learning Models,Sequential CPU Utilization,PyTorch,Hugging Face Transformers',
+            link: 'https://www.youtube.com/watch?v=ZZTyjLwovhE'
         },
     };
     
